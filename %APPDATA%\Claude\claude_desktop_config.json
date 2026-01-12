@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "wazuh-threat-hunting": {
+      "command": "mcp-server-wazuh",
+      "env": {
+        "WAZUH_API_HOST": "192.168.1.51",
+        "WAZUH_API_PORT": "55000",
+        "WAZUH_API_USER": "admin",
+        "WAZUH_API_PASSWORD": "59.SOfBL++R13S5UbPFZayr+zI*qEMTc",
+        "WAZUH_DANGEROUS_DISABLE_SSL_VERIFICATION": "true"
+      }
+    }
+  }
+}
