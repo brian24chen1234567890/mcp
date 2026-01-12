@@ -1,0 +1,11 @@
+檔案路徑： /etc/wazuh-indexer/opensearch-security/internal_users.yml
+
+修改動作： 用 nano 進去手動替換 admin 的 hash 字串。
+
+意義： 這是 Wazuh Indexer (資料庫) 的使用者清單，雜湊值沒對上，MCP 絕對連不進去。
+
+檔案路徑： /usr/share/wazuh-dashboard/data/wazuh/config/wazuh.yml
+
+修改動作： 用 nano 修改 password 欄位。
+
+意義： 這是讓網頁 Dashboard 能夠「登入」後端 API 的鑰匙。這裡沒改對，網頁就會顯示 Offline。
