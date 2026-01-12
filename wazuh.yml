@@ -1,0 +1,6 @@
+hosts:
+  - default:
+      url: https://localhost
+      port: 55000
+      username: admin
+      password: "59.SOfBL++R13S5UbPFZayr+zI*qEMTc" # 您重新安裝後獲得的密碼
